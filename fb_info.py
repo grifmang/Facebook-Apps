@@ -22,7 +22,7 @@ def get_page_data(page_id):
             return e.reason
 
 # username or id
-page_id = "AdvancedITSolutions.net"
+page_id = raw_input('Please enter a username or page name: ')
 
 data = get_page_data(page_id)
 
