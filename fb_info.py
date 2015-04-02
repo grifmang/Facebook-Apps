@@ -21,7 +21,7 @@ def get_page_data(page_id):
         elif hasattr(e, 'reason'):
             return e.reason
 
-# username or id
+# username or page id
 page_id = raw_input('Please enter a username or page name: ')
 
 data = get_page_data(page_id)
